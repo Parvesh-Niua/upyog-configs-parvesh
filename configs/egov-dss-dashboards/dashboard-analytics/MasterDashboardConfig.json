@@ -10070,6 +10070,36 @@
                   "headers": []
                 }
               ]
+            },
+            {
+              "id": 207,
+              "name": "DSS_STREET_VENDING",
+              "vizType": "module",
+              "moduleLevel": "SV",
+              "ref": {
+                "url": "national-sv",
+                "logoUrl": "",
+                "type": "internal"
+              },
+              "label": "",
+              "charts": [
+                {
+                  "id": "totalStreetVending",  
+                  "name": "NATIONAL_DSS_SV_TOTAL_VENDING",
+                  "code": "",
+                  "chartType": "metric",
+                  "filter": "",
+                  "headers": []
+                },
+                {
+                  "id": "nssSvTotalConnection",
+                  "name": "NATIONAL_DSS_SV_TOTAL_CERTIFICATE_IDCARD",
+                  "code": "",
+                  "chartType": "metric",
+                  "filter": "",
+                  "headers": []
+                }
+              ]
             }
           ]
       }
